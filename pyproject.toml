@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ricohdownload"
+version = "0.1.0"
+description = ""
+authors = ["krachyon <sebastian.messlinger@posteo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+tqdm = "^4.67.1"
+playwright = "^1.49.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.31.0"
+ruff = "^0.9.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
